@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     
+}
+body{
+    background-color: #F5F5F5;
+}
+.paginicial{
+    text-decoration: none;
+    color: #fff;
+    position: fixed;
+    left: 30px;
+    top: 15px;
+    
+}
+.topo{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    font-family: "Anton SC", sans-serif;
+}
+.pesquisar{
+    position: fixed;
+    left: 600px;
+    width: 600px;
+    top: 12px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+.iniciar{
+    position: fixed;
+    left: 1600px;
+    top: 10px;
+}
+.iniciar img{
+    height: 30px;
+}
+.paginicial:hover{
+font-size: 19px;
+position: fixed;
+left: 27px;
+    top: 14px;
+}
+.carro {
+    position: fixed;
+    left: 1650px;
+    top: 11px;
+    height: 25px;
+}
+.qtd{
+    position: fixed;
+    left: 1665px;
+    top: 24px;
+    height: 17px;
+}
+.card{
+    border-color: #000;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #F5F5F5;
+    position: absolute;
+    height: 800px;
+    width: 1200px;
+    left: 300px;
+    top: 90px;
+    border-radius: 30px;
+    
+    
+}
+
+.imagem{
+    height: 80%;
+    padding: 50px;
+    margin-left: 0px;
+    width: 670px;
+    cursor: zoom-in;
+}
+.imagem :hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform:scale(1.1);
+    transform: scale(1.1);
+}
+.info{
+    position: fixed;
+    left: 950px;
+    top: 135px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    
+}
+.card h5{
+    position: fixed;
+    left: 950px;
+    top: 165px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+}
+.card button{
+    position: fixed;
+    left: 965px;
+    top: 400px;
+    height: 30px;
+    width: 500px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.tamanho{
+    position: fixed;
+    top: 250px;
+    left: 950px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+}
+.linha1{
+    width: 1px;
+    position: fixed;
+    left: 935px;
+    top: 100px;
+    height:82vh;
+    background-color: #2b2b2b;
+    
+}
+.linha2{
+    width: 1px;
+    position: fixed;
+    left: 1260px;
+    bottom: 475px;
+    height:45vh;
+    background-color: #2b2b2b;
+    transform:rotate(90deg);
+}
+.dispo{
+    display: flex;
+    position: fixed;
+    left: 935px;
+    bottom: 650px;
+    gap: 5%;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.pp{
+    background-color: #ffffff;
+    width: 100px;
+    border: 1px solid #000000;
+}
+.imagem :hover{
+    transform: scale(1.2); 
+}
+.add{
+    position: fixed;
+    left: 1000px;
+    top: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    cursor: pointer;
+    
+    
+}
+.zoom{
+    overflow: hidden;
+}
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.imagem{
+    position: fixed;
+    left:230px;
+    z-index: 10;
+    height: 80%;
+    padding: 50px;
+    margin-left: 100px;
+    width: 600px;
+    cursor: zoom-in;
+    top: 30px;
+    padding-top: 100px;
+}
+.carrinho2{
+    border: 1px solid;
+    position: fixed;
+    left: 965px;
+    top: 445px;
+}
+.somenteprocell img{
+   color: none;
+   background: none; 
+    
+
+    
+}
+.cardprocell{
+     color: none;
+   background: none; 
+}
+.infoprocell{
+ color: none;
+   background: none; 
+}
+.pix{
+   color: none;
+   background: none; 
+}
+.linha1procell{
+  
+    background: none;
+}
+.avista{
+    color: none;
+    background: none;
+}
+.somenteprocell button{
+
+   background: none;
+    color:none;
+ 
+}
+.dispocell{
+    color:none;
+}
+.ppcell{
+ background: none;
+   color: none;
+    border:none;
+}
+.tamanhocell{
+    font: none;
+    color:none;
+}
+.linha2procell{
+    color: none;
+    background: none;
+    
+}
+@media screen and (max-width:1920px) {
+    .dispocell{
+        display: none;
+    }
+.imagemprocell{
+   display: none;
+}
+.tamanhocell{
+    display: none;
+}
+.somenteprocell button{
+    display: none;
+}
+.linha2procell{
+    display: none;
+}
+.addprocell{
+    display: none;
+}
+}
+@media(max-width:1366px){
+    .topo{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+.iniciar{
+    position: fixed;
+    left: 1050px;
+    top: 10px;
+}
+.iniciar img{
+    height: 30px;
+}
+.carro{
+     position: fixed;
+    left: 1100px;
+    top: 11px;
+    height: 25px;
+}
+.qtd{
+    position: fixed;
+    left: 1115px;
+    top: 24px;
+    height: 17px;
+}
+.card{
+    border-color: #000;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #F5F5F5;
+    position: fixed;
+    height: 550px;
+    width: 1200px;
+    left: 45px;
+    top: 85px;
+    border-radius: 30px;
+    
+}
+.imagem{
+    position: fixed;
+    left:130px;
+    z-index: 10;
+    height: 87%;
+    padding: 50px;
+    margin-left: 100px;
+    width: 600px;
+    cursor: zoom-in;
+    top: 50px;
+    padding-top: 100px;
+}
+.linha1{
+    width: 1px;
+    position: fixed;
+    left: 935px;
+    top:90px;
+    height:77vh;
+    background-color: #2b2b2b;
+    
+}
+.linha2{
+    width: 1px;
+    position: fixed;
+    top: 200px;
+    left: 1135px;
+    bottom: 388px;
+    height:25vh;
+    background-color: #2b2b2b;
+    transform:rotate(90deg);
+}
+.dispo{
+    display: flex;
+    position: fixed;
+    left: 920px;
+    bottom: 420px;
+    top: 300px;
+    gap: 5%;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    cursor: pointer;
+    width: 200px;
+}
+.card button{
+    position: fixed;
+    left: 955px;
+    top: 400px;
+    height: 30px;
+    width: 275px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.info{
+    position: fixed;
+    left: 950px;
+    top: 135px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 11px;
+}
+.imagem :hover{
+    transform: scale(1.2); 
+}
+.somenteprocell img{
+   color: none;
+   background: none; 
+    
+
+    
+}
+.cardprocell{
+     color: none;
+   background: none; 
+}
+.infoprocell{
+ color: none;
+   background: none; 
+}
+.pix{
+   color: none;
+   background: none; 
+}
+.linha1procell{
+  
+    background: none;
+}
+.avista{
+    color: none;
+    background: none;
+}
+.somenteprocell button{
+
+   background: none;
+    color:none;
+ 
+}
+.dispocell{
+    color:none;
+}
+.ppcell{
+ background: none;
+   color: none;
+    border:none;
+}
+.tamanhocell{
+    font: none;
+    color:none;
+}
+.linha2procell{
+    color: none;
+    background: none;
+    
+}
+}
+@media(max-width:460px){
+    .topo{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+.card{
+    border: none;
+background: none;
+
+}
+.imagem{
+display: none;
+
+}
+.imagemprocell{
+    display: block;
+}
+.somenteprocell img{
+   position: fixed; 
+    height: 300px;
+    width: 300px;
+    left: 77.5px;
+    top: 100px;
+    
+
+    
+}
+.cardprocell{
+    height: 350px;
+    width: 90vw;
+   
+    margin-top: 80px;
+    margin-left: 23px;
+    border-color: #000;
+    border-radius: 10px;
+    border-style: solid;
+}
+.infoprocell{
+    margin-left: 25px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 30px;display: block;
+}
+.pix{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;display: block;
+}
+.linha1procell{
+    width: 1px;
+    position: fixed;
+   left: 230px;
+    top: 250px;
+    height:48vh;
+    background-color: #2b2b2b;
+    transform: rotate(90deg);display: block;
+}
+.avista{
+    margin-left: 15px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-top: 1px;
+     position: fixed;
+    left: 30px;display: block;
+    
+    
+}
+.somenteprocell button{
+    position: fixed;
+    left: 30px;
+    margin-top: 100px;
+    height: 30px;
+    width: 400px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;display: block;
+}
+.dispocell{
+    display: flex;
+    position: fixed;
+    margin-top: 50px;
+    
+    gap: 5%;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    cursor: pointer;
+    
+    
+    
+}
+.ppcell{
+    background-color: #ffffff;
+    width: 100px;
+    border: 1px solid #000000;
+}
+.tamanhocell{
+    position: fixed;
+    top: 563px;
+    left:25px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;display: block;
+}
+.linha2procell{
+    width: 1px;
+    position: fixed;
+    left: 255px;
+    top: 436px;
+    height:33vh;
+    background-color: #2b2b2b;
+    transform: rotate(90deg);display: block;
+}
+.addprocell{
+    position: fixed;
+    margin-top: 155px;
+    margin-left: 300px;
+    border: 1px solid;
+    width: 126px;
+    border-radius: 15px;
+    padding-left: 10px;
+    color: #fff;
+    background-color: #000;
+    display: block;
+}
+}
+

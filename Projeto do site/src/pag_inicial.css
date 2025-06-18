@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Anton SC", sans-serif;
+}
+body{
+    background-color: #ffffff;
+    
+}
+.paginicial:hover{
+font-size: 19px;
+position: fixed;
+left: 27px;
+    top: 14px;
+}
+.paginicial{
+    text-decoration: none;
+    color: #fff;
+    position: fixed;
+    left: 30px;
+    top: 15px;
+    font-family: "Anton SC", sans-serif;
+}
+.topo{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+}
+
+.pesquisar{
+    position: fixed;
+    left: 600px;
+    width: 600px;
+    top: 12px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 30px;
+    padding-left: 30px;
+    
+    
+}
+.lupa{
+    
+    position: fixed;
+    left: 355px;
+    width: 25px;
+    top: 15px;
+    height: 25px;
+}
+.topo input{
+    padding-left: 30px;
+    
+    
+}
+.iniciar{
+    position: fixed;
+    left: 1600px;
+    top: 10px;
+}
+.iniciar img{
+    height: 30px;
+}
+
+.paginicial:hover{
+font-size: 19px;
+position: fixed;
+left: 27px;
+    top: 14px;
+}
+.paginicial:hover{
+font-size: 19px;
+position: fixed;
+left: 27px;
+    top: 14px;
+}
+.categoria1:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria2:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria3:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria4:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria5:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria6:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria7:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria8:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria{
+    display: flex;
+    height: 1px;        
+    padding: 48px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px;
+    width: 100vw;
+     font-family: "Anton SC", sans-serif;
+    text-decoration: none;
+
+}
+.categoria1{
+margin-top: 15px;
+padding-left: 100px;
+}
+
+.categoria2{
+    margin-top: 15px;
+    }
+    
+    .categoria3{
+        margin-top: 15px;
+        }
+        
+        .categoria4{
+            margin-top: 15px;
+            }
+           
+            .categoria5{
+                margin-top: 15px;
+                }
+                .categoria6{
+                    margin-top: 15px;
+                    }
+                    .categoria7{
+                        margin-top: 15px;
+                        }
+                        .categoria8{
+                            margin-top: 15px;
+                            }
+.banner1{
+    height:500px;
+    width: 90vw;
+    display: flex;
+    
+    border-radius: 5px;
+    padding-left: 200px;
+    scrollbar-width: none;
+  
+    
+}
+.ofertas{
+    
+    padding-left: 10px;
+    background-color: black;
+    height: 30px;
+    color: #fff;
+    padding-top: 7px;
+    font-size: larger;
+    
+}
+.preta{
+    background-color: #000;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+}
+.relogio{
+    margin-left: 10px;
+    padding-left: 100px;
+    height: 45px;
+    padding: 9px;
+    padding-top: 2px;
+}
+.carro {
+    position: fixed;
+    left: 1650px;
+    top: 11px;
+    height: 25px;
+}
+.qtd{
+    position: fixed;
+    left: 1665px;
+    top: 24px;
+    height: 17px;
+}
+.prateleira{
+background-color:#ffffff;
+height:320px;
+width:100%;
+padding-top: 20px;
+overflow-x: scroll;
+display: flex;
+align-items: center;
+gap: 1%;
+scrollbar-width: none;
+
+}
+.pratileira2{
+background-color:#ffffff;
+height:320px;
+width:100%;
+padding-top: 20px;
+overflow-x: scroll;
+display: flex;
+align-items: center;
+gap: 1%;
+scrollbar-width: none;
+
+}
+.pratileira2{
+background-color:#ffffff;
+height:320px;
+width:100%;
+padding-top: 20px;
+overflow-x: scroll;
+display: flex;
+align-items: center;
+gap: 1%;
+scrollbar-width: none;
+
+}
+.pratileira3{
+background-color:#ffffff;
+height:320px;
+width:100%;
+
+overflow-x: scroll;
+display: flex;
+align-items: center;
+gap: 1%;
+scrollbar-width: none;
+
+}
+.pratileira4{
+background-color:#ffffff;
+height:320px;
+width:100%;
+padding-top: 20px;
+overflow-x: scroll;
+display: flex;
+align-items: center;
+gap: 1%;
+scrollbar-width: none;
+
+}
+.pratileira5{
+background-color:#ffffff;
+height:320px;
+width:100%;
+padding-top: 20px;
+overflow-x: scroll;
+display: flex;
+align-items: center;
+gap: 1%;
+scrollbar-width: none;
+
+}
+.pratileira6{
+background-color:#ffffff;
+height:320px;
+width:100%;
+padding-top: 20px;
+overflow-x: scroll;
+display: flex;
+align-items: center;
+gap: 1%;
+scrollbar-width: none;
+
+}
+.textodentro1{
+margin-left: 20px;
+
+}
+.separador1{
+background-color: black;
+height: 25px;
+width: 29%;
+ font-family: "Anton SC", sans-serif;
+color: #F5F5F5;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px ;
+
+}
+
+.separador2{
+background-color: black;
+height: 25px;
+width: 29%;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px ;
+ font-family: "Anton SC", sans-serif;
+color: #F5F5F5;
+
+
+}
+
+.separador3{
+    background-color: black;
+height: 25px;
+width: 29%;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px ;
+font-family: "Anton SC", sans-serif;
+color: #F5F5F5;
+}
+
+.separador1{
+     font-family: "Anton SC", sans-serif;
+}
+.separador2{
+    font-family: "Anton SC", sans-serif;
+}
+.separador3{
+   font-family: "Anton SC", sans-serif;
+}
+.link1{
+    text-decoration: none;
+    color: #000;
+}
+.recifecamisa{
+    height: 269px;
+   
+}
+.link2{
+    text-decoration: none;
+    color: #000;
+}
+.link3{
+    text-decoration: none;
+    color: #000;
+}
+.link4{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.separador4{
+background-color: black;
+height: 25px;
+width: 29%;
+ font-family: "Anton SC", sans-serif;
+color: #F5F5F5;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px ;
+}
+.short1{
+    height: 270px;
+   
+}
+.short2{
+    
+    height: 270px;
+}
+.short3{
+   
+    height: 270px;
+    
+}
+
+.separador5{
+background-color: black;
+height: 25px;
+width: 29%;
+ font-family: "Anton SC", sans-serif;
+color: #F5F5F5;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px ;
+}
+
+.separador6{
+background-color: black;
+height: 25px;
+width: 29%;
+ font-family: "Anton SC", sans-serif;
+color: #F5F5F5;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px ;
+}
+
+.camisafemmessi{
+    height: 270px;
+    padding-left: 20px;
+}
+.realfeminina{
+    height: 270px;
+    padding-left: 20px;
+}
+.cruzeirofeminina{
+    height: 270px;
+    padding-left: 20px;
+}
+.femininocortinas{
+    display: flex;
+    padding-left: 100px;
+    height: 270px;
+    
+}
+.bannervermelho{
+height:500px;
+scrollbar-width: none;
+
+}
+.bannergoats{
+height:500px;
+scrollbar-width: none;
+
+
+}
+.bannerbrasil{
+height:500px;
+scrollbar-width: none;
+
+
+}
+
+.banners{
+ background-color: rgb(255, 255, 255);
+ width: 100%;
+ 
+overflow-x: scroll;
+display: flex;
+align-items: center;
+scrollbar-width: none;
+
+
+}
+.loginho{
+    height:30px;
+    width: 10px;
+}
+
+@media(max-width:1366px){}
+@media(max-height:768px){
+
+    .pesquisar{
+        position: fixed;
+    left: 350px;
+    width: 600px;
+    top: 12px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+.carro{
+     position: fixed;
+    left: 1100px;
+    top: 11px;
+    height: 25px;
+}
+.qtd{
+    position: fixed;
+    left: 1115px;
+    top: 24px;
+    height: 17px;
+}
+.iniciar{
+    position: fixed;
+    left: 1050px;
+    top: 10px;
+}
+.iniciar img{
+    height: 30px;
+}
+.banner1{
+    height:500px;
+    width: 90vw;
+    display: flex;
+    
+    border-radius: 5px;
+    padding-left: 2px;
+  
+    
+}
+}
+
+
+ 
+ @media(max-height:1016px){
+       .pesquisar{
+        position: fixed;
+    left: 350px;
+    width: 600px;
+    top: 12px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+.carro{
+     position: fixed;
+    left: 1100px;
+    top: 11px;
+    height: 25px;
+}
+.qtd{
+    position: fixed;
+    left: 1115px;
+    top: 24px;
+    height: 17px;
+}
+.iniciar{
+    position: fixed;
+    left: 1050px;
+    top: 10px;
+}
+.iniciar img{
+    height: 30px;
+}
+.banner1{
+    height:500px;
+    width: 90vw;
+    display: flex;
+    
+    border-radius: 5px;
+    padding-left: 2px;
+  
+    
+}
+
+ }
+@media screen and (max-width:460px){
+     .carro{
+     position: fixed;
+    left: 410px;
+    top: 13px;
+    height: 25px;
+    z-index: 10;
+    
+}
+.qtd{
+    position: fixed;
+    left: 425px;
+    top: 25px;
+    height: 17px;
+}
+
+
+.iniciar{
+    position: fixed;
+    left: 370px;
+    top: 12px;
+}
+.iniciar img{
+    height: 30px;
+}
+.banner1{
+    height:500px;
+    width: 90vw;
+    display: flex;
+    
+    border-radius: 5px;
+    padding-left: 2px;
+
+    
+}
+.topo{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+}
+.pesquisar{
+    position: fixed;
+    left: 160px;
+    width: 200px;
+    padding-left: 30px;
+}
+
+.categoria{
+  
+ width: 460px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+  
+}
+
+
+
+
+
+
+.lupa{
+    
+    position: fixed;
+    left: 162px;
+}
+.separador1{
+     width: 300px;
+}
+.separador2{
+     width: 300px;
+}
+.separador3{
+     width: 300px;
+}
+.separador4{
+     width: 300px;
+}
+.separador5{
+     width: 300px;
+}
+.separador6{
+     width: 300px;
+}
+.banners{
+    height: 200px;
+    width: 100vw;
+}
+
+ }
+
+    
+
+
+
+

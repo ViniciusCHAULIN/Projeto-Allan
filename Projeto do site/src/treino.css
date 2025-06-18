@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.paginicial{
+    text-decoration: none;
+    color: #fff;
+    position: fixed;
+    left: 30px;
+    top: 15px;
+    font-family: "Anton SC", sans-serif;
+}
+.topo{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+}
+.pesquisar{
+    position: fixed;
+    left: 600px;
+    width: 600px;
+    top: 12px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+.iniciar{
+    position: fixed;
+    left: 1600px;
+    top: 10px;
+}
+.iniciar img{
+    height: 30px;
+}
+
+
+.categoria{
+    display: flex;
+    height: 1px;        
+    padding: 48px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px;
+    width: 100vw;
+    font-family: "Anton SC", sans-serif;
+    text-decoration: none;
+}
+.paginicial:hover{
+font-size: 19px;
+position: fixed;
+left: 27px;
+    top: 14px;
+}
+.categoria1:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria2:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria3:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria4:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria5:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria6:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria7:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria8:hover{
+color: rgb(78, 78, 78);
+
+}
+.categoria1{
+margin-top: 15px;
+padding-left: 100px;
+text-decoration: none;
+}
+.categoria2{
+    margin-top: 15px;
+    text-decoration: none;
+    }
+    .categoria3{
+        margin-top: 15px;
+        }
+        .categoria4{
+            margin-top: 15px;
+            }
+            .categoria5{
+                margin-top: 15px;
+                }
+                .categoria6{
+                    margin-top: 15px;
+                    }
+                    .categoria7{
+                        margin-top: 15px;
+                        }
+                        .categoria8{
+                            margin-top: 15px;
+                            }
+                            
+.qtd{
+    position: fixed;
+    left: 1665px;
+    top: 24px;
+    height: 17px;
+}
+.carro {
+    position: fixed;
+    left: 1650px;
+    top: 11px;
+    height: 25px;
+}
+.link1{
+    text-decoration: none;
+    color: #000;
+}
+.link2{
+    text-decoration: none;
+    color: #000;
+}
+.link3{
+    text-decoration: none;
+    color: #000;
+}
+.link4{
+    text-decoration: none;
+    color: #000;
+    display: none;
+}
+.brtexto{
+    padding-left: 850px;
+    padding-top: 30px;
+   font-family: "Anton SC", sans-serif;
+    font-size: larger;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 100vw;
+    
+} 
+
+.pratileira41{
+overflow-y: none;
+background-color: rgb(255, 255, 255);
+height:320px;
+width:100%;
+overflow-x: scroll;
+display: flex;
+gap: 1%;
+align-items: center;
+scrollbar-width: none;
+    
+
+
+}
+.nike{
+ margin-left: 50px;
+margin-bottom: 0px;
+margin-top: 10px;
+    height: 70px;
+padding: 4px;
+}
+.puma{
+margin-left: 43px;
+margin-bottom: 0px;
+margin-top: 10px;
+    height: 150px;
+
+
+
+}
+.pratileira42{
+overflow-y: none;
+background-color: rgb(255, 255, 255);
+height:320px;
+width:100%;
+overflow-x: scroll;
+display: flex;
+gap: 1%;
+align-items: center;
+    scrollbar-width: none;
+
+}
+.olimpikus{
+margin-left: 40px;
+margin-bottom: 0px;
+margin-top: 10px;
+    height: 100px;
+    padding: 14px;
+}
+.pratileira43{
+overflow-y: none;
+background-color: rgb(255, 255, 255);
+height:320px;
+width:100%;
+overflow-x: scroll;
+display: flex;
+gap: 1%;
+align-items: center;
+scrollbar-width: none;
+    
+    
+}
+.pratileira44{
+overflow-y: none;
+background-color: rgb(255, 255, 255);
+height:320px;
+width:100%;
+overflow-x: scroll;
+display: flex;
+gap: 1%;
+align-items: center;
+scrollbar-width: none;
+    
+    
+}
+.fila{
+margin-left: 30px;
+margin-bottom: 0px;
+margin-top: 10px;
+    height: 195px;
+}
+.pratileira45{
+overflow-y: none;
+background-color: rgb(255, 255, 255);
+height:320px;
+width:100%;
+overflow-x: scroll;
+display: flex;
+gap: 1%;
+align-items: center;
+scrollbar-width: none;
+    
+}
+.adidas{
+margin-left: 40px;
+margin-bottom: 0px;
+margin-top: 10px;
+    height: 125px;
+
+}
+@media(max-width:1366px){
+    .carro{
+     position: fixed;
+    left: 1100px;
+    top: 11px;
+    height: 25px;
+}
+.qtd{
+    position: fixed;
+    left: 1115px;
+    top: 24px;
+    height: 17px;
+}
+.iniciar{
+    position: fixed;
+    left: 1050px;
+    top: 10px;
+}
+.iniciar img{
+    height: 30px;
+}
+.banner1{
+    height:500px;
+    width: 90vw;
+    display: flex;
+    
+    border-radius: 5px;
+    padding-left: 2px;
+
+    
+}
+.topo{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+}
+
+
+
+ }
+ @media(max-width:460px){
+    .carro{
+     position: fixed;
+    left: 410px;
+    top: 13px;
+    height: 25px;
+    z-index: 10;
+    
+}
+.qtd{
+    position: fixed;
+    left: 425px;
+    top: 25px;
+    height: 17px;
+}
+
+
+.iniciar{
+    position: fixed;
+    left: 370px;
+    top: 12px;
+}
+.iniciar img{
+    height: 30px;
+}
+.banner1{
+    height:500px;
+    width: 90vw;
+    display: flex;
+    
+    border-radius: 5px;
+    padding-left: 2px;
+
+    
+}
+.topo{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+}
+.pesquisar{
+    position: fixed;
+    left: 160px;
+    width: 200px;
+    padding-left: 30px;
+}
+.categoria{
+    padding-left:0.1px;
+}
+.lupa{
+    
+    position: fixed;
+    left: 162px;
+}
+.separador1{
+     width: 300px;
+}
+.separador2{
+     width: 300px;
+}
+.separador3{
+     width: 300px;
+}
+.separador4{
+     width: 300px;
+}
+.separador5{
+     width: 300px;
+}
+.separador6{
+     width: 300px;
+}
+.banners{
+    height: 200px;
+    width: 100vw;
+}
+
+ }
+
+    
+
+    
+
+
