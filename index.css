@@ -531,6 +531,7 @@ scrollbar-width: none;
 
  }
 @media screen and (max-width:460px){
+
      .carro{
      position: fixed;
     left: 410px;
@@ -587,12 +588,6 @@ scrollbar-width: none;
    gap: 15px;
   
 }
-
-
-
-
-
-
 .lupa{
     
     position: fixed;

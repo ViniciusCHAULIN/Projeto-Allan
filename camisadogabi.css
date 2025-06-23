@@ -190,6 +190,7 @@ left: 27px;
     cursor: zoom-in;
     top: 30px;
     padding-top: 100px;
+    
 }
 .carrinho2{
     border: 1px solid;
@@ -318,6 +319,7 @@ left: 27px;
     cursor: zoom-in;
     top: 50px;
     padding-top: 100px;
+    
 }
 .linha1{
     width: 1px;
@@ -530,8 +532,8 @@ display: none;
 .linha2procell{
     width: 1px;
     position: fixed;
-    left: 255px;
-    top: 436px;
+    left: 285px;
+    top: 450px;
     height:33vh;
     background-color: #2b2b2b;
     transform: rotate(90deg);display: block;
@@ -547,6 +549,11 @@ display: none;
     color: #fff;
     background-color: #000;
     display: block;
+}
+.linha1procell{
+top: 300px;
+
+
 }
 }
 
