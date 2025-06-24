@@ -427,30 +427,29 @@ left: 27px;
 }
 }
 @media(max-width:460px){
-    .topo{
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 50px;
-    position: fixed;
-}
+    .imagem{
+        width: 500px;
+        position: fixed;
+  
+        height: 300px;
+        left: 30px;
+        display: none;
+        
+        
+    }  
 .card{
-    border: none;
-background: none;
-
-}
-.imagem{
-display: none;
-
-}
-.imagemprocell{
-    display: block;
-}
+    width: 410px;
+    position: fixed;
+    left: 30px;
+    display: none;
+}  
 .somenteprocell img{
    position: fixed; 
     height: 300px;
     width: 300px;
-    left: 77.5px;
+    left: 50.5px;
     top: 100px;
+    display: block;
     
 
     
@@ -468,11 +467,11 @@ display: none;
 .infoprocell{
     margin-left: 25px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     margin-top: 30px;display: block;
+     margin-top: 5px;
 }
 .pix{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 300px;display: block;
+    margin-left: 300px;
 }
 .linha1procell{
     width: 1px;
@@ -481,39 +480,38 @@ display: none;
     top: 250px;
     height:48vh;
     background-color: #2b2b2b;
-    transform: rotate(90deg);display: block;
+    transform: rotate(90deg); display: block;
 }
 .avista{
     margin-left: 15px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      padding-top: 1px;
      position: fixed;
-    left: 30px;display: block;
+    left: 30px;
     
     
 }
 .somenteprocell button{
     position: fixed;
-    left: 30px;
+    left: 50px;
     margin-top: 100px;
     height: 30px;
-    width: 400px;
+    width: 300px;
     background-color: #000;
     color: #fff;
     border: none;
-    cursor: pointer;display: block;
+    cursor: pointer; display: block;
 }
 .dispocell{
     display: flex;
     position: fixed;
-    margin-top: 50px;
+    margin-top: 30px;
     
     gap: 5%;
     color: #000000;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 30px;
     cursor: pointer;
-    
     
     
 }
@@ -524,10 +522,15 @@ display: none;
 }
 .tamanhocell{
     position: fixed;
-    top: 563px;
+    top: 543px;
     left:25px ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000000;display: block;
+    color: #000000; display: block;
+}
+.linha1procell{
+top: 270px;
+display: none;
+
 }
 .linha2procell{
     width: 1px;
@@ -536,7 +539,8 @@ display: none;
     top: 450px;
     height:33vh;
     background-color: #2b2b2b;
-    transform: rotate(90deg);display: block;
+    transform: rotate(90deg); display: block;
+    display: none;
 }
 .addprocell{
     position: fixed;
@@ -549,11 +553,6 @@ display: none;
     color: #fff;
     background-color: #000;
     display: block;
-}
-.linha1procell{
-top: 300px;
-
-
 }
 }
 

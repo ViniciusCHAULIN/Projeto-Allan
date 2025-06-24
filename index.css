@@ -4,10 +4,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Anton SC", sans-serif;
+   
 }
 body{
     background-color: #ffffff;
-    
+   
 }
 .paginicial:hover{
 font-size: 19px;
@@ -23,12 +24,22 @@ left: 27px;
     top: 15px;
     font-family: "Anton SC", sans-serif;
 }
-.topo{
-    background-color: rgb(0, 0, 0);
-    width: 100vw;
+.pretobala{
+background-color: rgb(0, 0, 0);
+    width:100%;
     height: 50px;
-    position: fixed;
+position: fixed;
+
+
 }
+.topo{
+      background-color: rgb(0, 0, 0);
+    width:100%;
+    height: 50px;
+   
+    
+}
+
 
 .pesquisar{
     position: fixed;
@@ -111,44 +122,42 @@ color: rgb(78, 78, 78);
 }
 .categoria{
     display: flex;
-    height: 1px;        
-    padding: 48px;
+    height:50px;        
+    
     justify-content: space-between;
     box-shadow: 1px 1px 1px;
-    width: 100vw;
+    width:1350px;
      font-family: "Anton SC", sans-serif;
     text-decoration: none;
-
+    background-color:#ffffff;
+    color: #000;
 }
 .categoria1{
-margin-top: 15px;
-padding-left: 100px;
+    color: #000;
+margin-top: 14px;
+margin-left: 50px;
+
 }
 
 .categoria2{
+    color: #000;
+    margin-top: 95px;
     margin-top: 15px;
     }
     
     .categoria3{
+        color: #000;
+        margin-top: 95px;
         margin-top: 15px;
         }
-        
-        .categoria4{
-            margin-top: 15px;
-            }
-           
             .categoria5{
+                color: #000;
                 margin-top: 15px;
+                margin-right: 20px;
                 }
-                .categoria6{
-                    margin-top: 15px;
-                    }
-                    .categoria7{
-                        margin-top: 15px;
-                        }
-                        .categoria8{
-                            margin-top: 15px;
-                            }
+                
+                    
+                        
 .banner1{
     height:500px;
     width: 90vw;
@@ -163,7 +172,7 @@ padding-left: 100px;
 .ofertas{
     
     padding-left: 10px;
-    background-color: black;
+    
     height: 30px;
     color: #fff;
     padding-top: 7px;
@@ -173,8 +182,9 @@ padding-left: 100px;
 .preta{
     background-color: #000;
     height: 40px;
-    width: 100vw;
+    width: 100%;
     display: flex;
+    
 }
 .relogio{
     margin-left: 10px;
@@ -550,7 +560,7 @@ scrollbar-width: none;
 
 .iniciar{
     position: fixed;
-    left: 370px;
+    left: 355px;
     top: 12px;
 }
 .iniciar img{
@@ -568,30 +578,50 @@ scrollbar-width: none;
 }
 .topo{
     background-color: rgb(0, 0, 0);
-    width: 100vw;
+    width: 100%;
     height: 50px;
-    position: fixed;
+    
+  
+}
+.pretobala{
+background-color: rgb(0, 0, 0);
+    width:100%;
+    height: 50px;
+position: fixed;
+}
+.preta{
+    
+    background-color: #000;
+    height: 40px;
+    width: 100%;
+    display: flex;
 }
 .pesquisar{
     position: fixed;
-    left: 160px;
+    left: 120px;
     width: 200px;
     padding-left: 30px;
+    overflow-y: none;
 }
 
+
 .categoria{
-  
- width: 450px;
-   height: 100px;
-   display: flex;
-   justify-content: center;
-   gap: 15px;
-  
+    display: flex;
+    height:50px;        
+    
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px;
+    width:460px;
+     font-family: "Anton SC", sans-serif;
+    text-decoration: none;
+    background-color:#ffffff;
+    color: #000;
 }
+
 .lupa{
     
     position: fixed;
-    left: 162px;
+    left: 120px;
 }
 .separador1{
      width: 300px;
@@ -613,9 +643,31 @@ scrollbar-width: none;
 }
 .banners{
     height: 200px;
-    width: 100vw;
+    width: 100%;
+}
+.categoria1{
+    color: #000;
+margin-top: 14px;
+
+
 }
 
+.categoria2{
+    color: #000;
+  
+    
+    }
+    
+    .categoria3{
+        color: #000;
+        margin-top: 95px;
+        margin-top: 15px;
+        }
+            .categoria5{
+                color: #000;
+                margin-top: 15px;
+                margin-right: 30px;
+                }
  }
 
     

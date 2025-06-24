@@ -351,7 +351,7 @@ left: 27px;
    position: fixed; 
     height: 300px;
     width: 300px;
-    left: 77.5px;
+    left: 50.5px;
     top: 100px;
     display: block;
     
@@ -371,7 +371,7 @@ left: 27px;
 .infoprocell{
     margin-left: 25px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     margin-top: 30px;
+     margin-top: 5px;
 }
 .pix{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -397,10 +397,10 @@ left: 27px;
 }
 .somenteprocell button{
     position: fixed;
-    left: 30px;
+    left: 50px;
     margin-top: 100px;
     height: 30px;
-    width: 400px;
+    width: 300px;
     background-color: #000;
     color: #fff;
     border: none;
@@ -409,7 +409,7 @@ left: 27px;
 .dispocell{
     display: flex;
     position: fixed;
-    margin-top: 50px;
+    margin-top: 30px;
     
     gap: 5%;
     color: #000000;
@@ -426,14 +426,14 @@ left: 27px;
 }
 .tamanhocell{
     position: fixed;
-    top: 563px;
+    top: 543px;
     left:25px ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000; display: block;
 }
 .linha1procell{
-top: 300px;
-
+top: 270px;
+display: none;
 
 }
 .linha2procell{
@@ -444,6 +444,7 @@ top: 300px;
     height:33vh;
     background-color: #2b2b2b;
     transform: rotate(90deg); display: block;
+    display: none;
 }
 .addprocell{
     position: fixed;
@@ -457,4 +458,4 @@ top: 300px;
     background-color: #000;
     display: block;
 }
-} 
+}

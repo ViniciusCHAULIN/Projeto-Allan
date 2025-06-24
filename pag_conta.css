@@ -287,69 +287,70 @@ position: fixed;
 @media screen and (max-width:760px){
   .login{
 position: fixed;
-left: 155px;
+left: 135px;
 
   }  
 .tenho{
     position: fixed;
-    left: 155px;
+    left: 120px;
     
 }
 .acessar{
     position: fixed;
-    left: 49px;
+    left: 22px;
     background: none;
   }
 .texto{
     position: fixed;
-    left: 57px;
+    left: 22px;
 }
 .senha{
     position: fixed;
-    left: 57px;
+    left: 22px;
 }
 .esqueci{
     position: fixed;
-    left: 58px;
+    left: 22px;
     
 }
 .acessar2{
     position: fixed;
     top: 75%;
-    left: 57px;
+    left: 22px;
 }
 .naotenho{
     position: fixed;
-    left: 170px;
+    left: 140px;
     top: 50%;
 }
 .senha2{
      position: fixed;
-    left: 57px;
+    left: 22px;
     top: 64%;
     
 }
 
 .texto2{
      position: fixed;
-    left: 57px;
+    left: 22px;
     top: 55%;
 }
 .linha{
     position: fixed;
-    left: 230px;
-    top: 205px;
-    height: 50vh;
+    left: 196px;
+    top: 189px;
+    height: 53vh;
     transform: rotate(90deg);
    
 }
 .continuar{
      position: fixed;
-    left: 225px;
-    top: 82%;
+    left: 185px;
+    top: 83%;
     
 }
 .textogoogle{
+    display: none;
     position: fixed;
     left: 150px;
     top: 86%;
@@ -357,19 +358,20 @@ left: 155px;
 }
 .google img{
     position: fixed;
-    left: 110px;
-    top: 85%;
+    left: 167px;
+    top: 90%;
     height: 30px;
    
 }
 .textofacebook{
+    display: none;
      position: fixed;
     left: 150px;
     top: 91%;
 }
 .facebook img{
     position: fixed;
-    left: 110px;
+    left: 200px;
     top: 90%;
     height: 30px;
    
